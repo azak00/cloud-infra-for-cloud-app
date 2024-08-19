@@ -29,7 +29,18 @@ __Function App__: Runs the resize code that reduces the image to a thumbnail.
 
 ##
 
-__Deployment Guide__
+<img src="https://github.com/user-attachments/assets/13b467aa-28d5-49dc-ae6c-e173215a48da" alt="Cloud App Deployment" style="height: 400px; width:500px;"/> 
+
+
+##
+
+__Deployment Guide__: 
+
++ Review and Deploy the ARM template in the same location with Resource Group:
+
+
+
+  
 
 
 
