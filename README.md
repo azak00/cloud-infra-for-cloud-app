@@ -73,16 +73,34 @@ __Transfers to/from storage account via HTTPs__: Update the HTTPS property to 'T
 
   - Navigate to 'resource group', first select the app service:
   - <img width="500" alt="image" src="https://github.com/user-attachments/assets/9a960ec0-7271-4486-937f-157b128da12c">
-  - From left-hand menu, expand 'Settings' then click 'Scale up(App service Plan)'; confirm S1 standard 10 daily backups are enabled:
-  - 
+  - Confirm S1 standard 10 daily backups are enabled: From the left-hand menu, expand 'Settings' then click 'Scale up(App service Plan)'; 
+  - <img width="682" alt="image" src="https://github.com/user-attachments/assets/ddd60d3b-a3d9-4a9c-9464-fb832733e535">
 
+  - Confirm Web App supports HTTPS: From the left-hand menu, expand 'Settings' then click 'Configuration'
+  - <img width="689" alt="image" src="https://github.com/user-attachments/assets/dea4f216-3564-4955-90f3-d845815068d3">
 
+  -  Navigate back to 'resource group', then select the Function app:
+  - <img width="635" alt="image" src="https://github.com/user-attachments/assets/0645dd4e-5bbe-45fb-b526-cdf325b5af47">
 
+  -  Confirm App Function supports HTTPS: From the left-hand menu, expand 'Settings' then click 'Configuration' then select 'General Settings':
 
+  -   <img width="586" alt="image" src="https://github.com/user-attachments/assets/995d861f-614d-485d-a958-e8df60688968">
 
-
-
+  -   Navigate back to 'resource group', then select the Storage account:
+  -  <img width="635" alt="image" src="https://github.com/user-attachments/assets/30cc0384-a93d-4c7d-836a-e50ed8769b21">
+  -  Confirm data are replicated to secondary region:
+    
+  -  <img width="640" alt="image" src="https://github.com/user-attachments/assets/8a217b73-679b-472d-aa5f-592290e1b649">
   
+  -  Confirm data are transferred to/from storage account using HTTPS:
+  -  <img width="562" alt="image" src="https://github.com/user-attachments/assets/f32598a0-bd7d-46ed-837d-331baccae9ae">
 
++ Launch and test application from the Web App domain:
+
+  -  Navigate back to 'resource group', then select the app service:
+  - <img width="500" alt="image" src="https://github.com/user-attachments/assets/9a960ec0-7271-4486-937f-157b128da12c">
+
+  -  Select the default App domain:
+  -  <img width="692" alt="image" src="https://github.com/user-attachments/assets/bc00fac6-9d17-4653-affc-b7f98e38c066">
 
 
